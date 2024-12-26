@@ -39,11 +39,7 @@ const Weather = () => {
       const response = await fetch(url);
       const data = await response.json();
 
-      if(!response.ok)
-      {
-        alert(data.message);
-        return;
-      }
+      
 
 
 
